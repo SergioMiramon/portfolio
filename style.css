@@ -45,7 +45,6 @@ body {
   background-size: cover;
   background-position: center;
   overflow: auto;
-  color: var(--main-bg-color);
 }
 
 body::-webkit-scrollbar {
