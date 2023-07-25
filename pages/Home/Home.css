@@ -1,0 +1,49 @@
+.home {
+    padding: 0 8rem;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+
+@media (max-width: 700px) {
+    .home {
+        padding: 0 2rem;
+    }
+}
+
+.home h1 {
+    font-size: 8vh;
+    color: var(--primary-bg-color);
+    /* background-image: linear-gradient(to right,#B3B3B3, #7F7F7F, #222222, #525151 ); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: name 6s linear infinite;
+    -webkit-animation: name 6s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 800%;
+}
+
+.home>a {
+    font-size: 1.5rem;
+}
+.namemusic {
+    text-decoration: none;
+    color: #e05353;
+    text-transform: uppercase;
+}
+
+.namegallery {
+    text-decoration: none;
+    color: #e05353;
+    text-transform: uppercase;
+}
+
+.nametv {
+    text-decoration: none;
+    color: #e05353;
+    text-transform: uppercase;
+}
