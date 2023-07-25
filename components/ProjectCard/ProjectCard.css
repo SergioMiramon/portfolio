@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .2rem;
 }
 
 .project-card img {
@@ -18,8 +18,16 @@
     justify-content: space-between;
 }
 
-.project-card>.header>h2 {
-    color: var(--main-bg-color);
+.project-card>.header>a>h2 {
+    color: var(--tertiary-color);
+}
+.project-card>.header>a>h2:hover {
+    color: var(--secundary-bg-color);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .project-card>.header>div {
@@ -28,9 +36,14 @@
 }
 
 .project-card>.header>div>a>img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    margin-top: 12.5px;
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .project-card>.header>div>a>img:hover {
@@ -40,11 +53,7 @@
 .project-card>.detail {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-}
-.project-card>.detail>.tech:hover {
-    color: var(--secundary-bg-color);
 }
 .project-card>.detail>.tech {
-    color: var(--tertiary-color);
+    color: var(--main-bg-color);
 }

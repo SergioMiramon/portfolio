@@ -15,6 +15,7 @@ footer {
 
 footer>div {
     display: flex;
+    margin-top: 1.25vh;
     gap: 1rem;
     flex-wrap: wrap;
 }

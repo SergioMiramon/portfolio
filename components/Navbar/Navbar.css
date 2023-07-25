@@ -10,7 +10,7 @@ img {
   }
 
 nav {
-    height: 10vh;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,4 +31,7 @@ nav>ul {
 
 nav a {
     transition: all 0.3s ease-in-out;
+}
+nav a img {
+    margin-top: 1.25vh;
 }

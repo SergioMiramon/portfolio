@@ -1,9 +1,8 @@
 export const projects = [
   {
-    title: "Primer proyecto",
-    description: "Photo Gallery created with Vite",
+    title: "Photo Gallery",
     image: "./icons/projectsimages/photo-galleryvalencia.png",
-    tech: ["HTML5", "CSS3", "JavaScript"],
+    tech: ["HTML5", "CSS3", "JavaScript", "Vite"],
     github: "https://github.com/SergioMiramon/photo-gallery",
     link: "https://photo-gallery-one-rouge.vercel.app/",
   },
