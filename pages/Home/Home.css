@@ -16,17 +16,18 @@
 }
 
 .home h1 {
-    font-size: 8vh;
+    font-size: 6.5vh;
     color: var(--primary-bg-color);
     word-wrap: break-word;
 }
 
 .home p{
+    font-size: 1.2rem;
     word-wrap: break-word;
 }
 
-.home>a {
-    font-size: 1.5rem;
+.home>p>a {
+    font-size: 1.4rem;
 }
 .namemusic {
     text-decoration: none;

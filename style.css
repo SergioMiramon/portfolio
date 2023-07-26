@@ -1,11 +1,4 @@
 :root {
- /* --primary-dark:whitesmoke;
- --bg-dark: #111111;
- --primary-light: #111111;
- --bg-light:whitesmoke;
- --highLight : #6cace4;
- --divider: rgb(164,164,164); */
-
   --main-bg-color: #d4d4d4;
   --secundary-bg-color: #e05353;
   --tertiary-color: #dda3a3;
@@ -45,6 +38,7 @@ body {
   background-size: cover;
   background-position: center;
   overflow: auto;
+  color: var(--main-bg-color);
 }
 
 body::-webkit-scrollbar {
