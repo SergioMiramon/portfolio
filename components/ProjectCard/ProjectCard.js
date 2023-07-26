@@ -11,7 +11,9 @@ export const ProjectCard = (project) => `
 </a>
 </div>
 </div>
+<a href=${project.link} target="blank">
 <img src=${project.image} alt=${project.title}/>
+</a>
 <div class="detail">
 <p class="tech">${project.tech.join(" - ")}</p>
 </div>
