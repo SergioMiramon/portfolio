@@ -11,4 +11,3 @@ footer.innerHTML = Footer();
 linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
 Home();
-footer.insertAdjacentHTML("beforebegin", Divider());
