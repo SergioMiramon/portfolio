@@ -14,7 +14,16 @@ footer {
 }
 
 footer h2 {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
+}
+
+footer h2:hover {
+    color: var(--tertiary-color);
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
 }
 
 footer img {
