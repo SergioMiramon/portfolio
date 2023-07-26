@@ -30,7 +30,6 @@ footer>div {
 }
 @media (max-width: 770px) {
     footer>div {
-        padding: 0 2rem;
         gap: 1.2rem;
     }
 }
