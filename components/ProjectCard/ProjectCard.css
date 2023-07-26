@@ -11,6 +11,13 @@
     border-radius: 0.4rem;
     object-fit: cover;
 }
+.project-card img:hover {
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+    -moz-transform: scale(.98);
+    -ms-transform: scale(.98);
+    -o-transform: scale(.98);
+}
 
 .project-card>.header {
     display: flex;
