@@ -117,7 +117,7 @@
     }
 }
 
-@media (max-width: 300px) and (orientation: portrait) {
+@media (max-width: 300px) {
     .home {
         line-height: 1vh;
         gap: .8rem;
