@@ -27,12 +27,14 @@
     color: var(--tertiary-color);
 }
 .project-card>.header>a>h2:hover {
-    color: var(--secundary-bg-color);
-    transition: all 0.3s ease-in-out;
+    filter: saturate(5);
+    /*color: var(--secundary-bg-color);
+    */transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    -webkit-filter: saturate(5);
 }
 
 .project-card>.header>div {

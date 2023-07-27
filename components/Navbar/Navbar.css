@@ -31,11 +31,10 @@ nav>ul {
 
 nav a {
     font-size: 2vh;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+}
+nav #projectslink:hover {
+    filter: brightness(70);
+    -webkit-filter: brightness(70);
 }
 nav a img {
     margin-top: 1.25vh;

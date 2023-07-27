@@ -9,93 +9,138 @@
     gap: 1.2rem;
 }
 
-@media (max-width: 700px) {
-    .home {
-        padding: 0 2rem;
-    }
-}
+/* .name {
 
-.name {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+} */
+
+.name h1 {
+    display: flex;
+    font-size: 6vh;
+    color: var(--main-bg-color);
+    word-wrap: break-word;
     line-height: 5vh;
     margin-top: 5vh;
 }
 
-.home h1 {
-    font-size: 6vh;
+.profession h3 {
+    font-size: 2.5vh;
     color: var(--main-bg-color);
     word-wrap: break-word;
+    margin-top: 1vh;
 }
 
-.home h2 {
-    font-size: 4.5vh;
-    color: var(--main-bg-color);
-    word-wrap: break-word;
-}
-
-.home h3 {
-    font-size: 2vh;
-    color: var(--main-bg-color);
-    word-wrap: break-word;
-    margin-top: 1.5vh;
-}
-
-.home p{
-    font-size: 1.6vh;
-    word-wrap: break-word;
-}
-
-.home>p>a {
+.info p{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     font-size: 1.8vh;
+    word-wrap: break-word;
+    line-height: 2vh;
+    gap: .5vh;
+}
+
+.info>p>a {
+    font-size: 2vh;
     color: var(--secundary-bg-color);
 }
 .namemusic {
     text-decoration: none;
-    color: #e05353;
+    color: var(--secundary-bg-color);
     text-transform: uppercase;
 }
 
 .namegallery {
     text-decoration: none;
-    color: #e05353;
+    color: var(--secundary-bg-color);
     text-transform: uppercase;
 }
 
 .nametv {
     text-decoration: none;
-    color: #e05353;
+    color: var(--secundary-bg-color);
     text-transform: uppercase;
 }
 
 @media (max-width: 700px) {
     .home {
         line-height: 1vh;
+        gap: .8rem;
     }
-    
+
     .name {
         line-height: 5vh;
     }
-    
-    .home h1 {
+
+    .name h1 {
         font-size: 5vh;
     }
-    
-    .home h2 {
+
+    .profession h3 {
+        font-size: 1.8vh;
+    }
+
+    .info p{
+        font-size: 1.2vh;
+        gap: .4vh;
+    }
+
+    .info>p>a {
+        font-size: 1.4vh;
+    }
+}
+@media (max-width: 500px) {
+    .home {
+        line-height: .6vh;
+        gap: 1rem;
+    }
+
+    .name {
+        line-height: 4.5vh;
+    }
+
+    .name h1 {
+        font-size: 4.5vh;
+    }
+
+    .info p{
+        font-size: 1.1vh;
+        gap: .35vh;
+    }
+
+    .info>p>a {
+        font-size: 1.3vh;
+    }
+}
+
+@media (max-width: 300px) and (orientation: portrait) {
+    .home {
+        line-height: 1vh;
+        gap: .8rem;
+    }
+
+    .name {
+        line-height: 5vh;
+    }
+
+    .name h1 {
         font-size: 4vh;
     }
     
-    .home h3 {
+    .profession h3 {
         font-size: 1.8vh;
     }
-    
-    .home p{
+
+    .info p{
         font-size: 1.2vh;
+        gap: .3vh;
     }
-    
-    .home>p>a {
+
+    .info>p>a {
         font-size: 1.4vh;
     }
 }
