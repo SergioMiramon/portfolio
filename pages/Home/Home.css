@@ -9,20 +9,13 @@
     gap: 1rem;
 }
 
-/* .name {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .name h1 {
     display: flex;
     font-size: 6vh;
     color: var(--main-bg-color);
     word-wrap: break-word;
     line-height: 5vh;
-    margin-top: 5vh;
+    margin-top: 7vh;
 }
 
 .profession h3 {
@@ -41,12 +34,13 @@
     font-size: 1.8vh;
     word-wrap: break-word;
     line-height: 2vh;
-    gap: .5vh;
+    /* gap: .5vh; */
 }
 
 .info>p>a {
     font-size: 2vh;
     color: var(--secundary-bg-color);
+    margin-inline-start: .5vh;
 }
 .namemusic {
     text-decoration: none;
@@ -58,6 +52,7 @@
     text-decoration: none;
     color: var(--secundary-bg-color);
     text-transform: uppercase;
+    margin-inline-end: .5vh;
 }
 
 .nametv {
@@ -66,7 +61,7 @@
     text-transform: uppercase;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
     .home {
         line-height: 1vh;
         gap: .4rem;
@@ -91,6 +86,10 @@
 
     .info>p>a {
         font-size: 1.4vh;
+        margin-inline-start: .2vh;
+    }
+    .namegallery {
+        margin-inline-end: .2vh;
     }
 }
 @media (max-width: 500px) {
@@ -104,7 +103,7 @@
     }
 
     .name h1 {
-        font-size: 4.5vh;
+        font-size: 3.5vh;
     }
 
     .info p{
@@ -114,6 +113,10 @@
 
     .info>p>a {
         font-size: 1.3vh;
+        margin-inline-start: .1vh;
+    }
+    .namegallery {
+        margin-inline-end: .1vh;
     }
 }
 
@@ -141,5 +144,9 @@
 
     .info>p>a {
         font-size: 1.4vh;
+        margin-inline-start: .05vh;
+    }
+    .namegallery {
+        margin-inline-end: .05vh;
     }
 }
