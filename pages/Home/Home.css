@@ -117,7 +117,7 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) and (orientation: portrait) {
     .home {
         line-height: 1vh;
         gap: .8rem;
@@ -128,7 +128,7 @@
     }
 
     .name h1 {
-        font-size: 1.5vh;
+        font-size: 3.5vh;
     }
     
     .profession h3 {
