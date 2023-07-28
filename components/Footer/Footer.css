@@ -27,7 +27,7 @@ footer {
     display: none;
 }
 .email:hover:after {
-    content: "COPY EMAIL?";
+    content: "SEND EMAIL?";
     font-size: 2vh;
     font-weight: 600;
 }
