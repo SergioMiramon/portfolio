@@ -18,7 +18,7 @@
     margin-top: 7vh;
 }
 
-.profession h3 {
+.profession h2 {
     font-size: 2.5vh;
     color: var(--main-bg-color);
     word-wrap: break-word;
@@ -75,7 +75,7 @@
         font-size: 5vh;
     }
 
-    .profession h3 {
+    .profession h2 {
         font-size: 1.8vh;
         margin-top: .8vh;
     }
@@ -107,7 +107,7 @@
         font-size: 3.5vh;
     }
 
-    .profession h3 {
+    .profession h2 {
         font-size: 1.8vh;
         margin-top: .6vh;
     }
@@ -139,7 +139,7 @@
         font-size: 3.5vh;
     }
     
-    .profession h3 {
+    .profession h2 {
         font-size: 1.8vh;
         margin-top: .3vh;
     }
