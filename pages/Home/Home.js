@@ -12,7 +12,7 @@ export const Home = () => {
         <h2>JUNIOR FULL STACK DEVELOPER</h2>
       </div>
       <div class="info">
-      <p>aficionado a la <a class="namemusic">música</a>, a la <a class="namegallery" href="https://photo-gallery-one-rouge.vercel.app/">fotografía</a> y al <a class="nametv" href="https://miramon.notion.site/SERIES-SEEN-THIS-2023-7749f5e3165e428c8894963dbd7a1bb0?pvs=4" target="blank">séptimo arte</a></p>
+      <p>aficionado a la <a class="namemusic" href="https://albums2023.vercel.app/" target="blank">música</a>, a la <a class="namegallery" href="https://photo-gallery-one-rouge.vercel.app/" target="blank">fotografía</a> y al <a class="nametv" href="https://miramon.notion.site/SERIES-SEEN-THIS-2023-ba9d61a37fac428aab588606a1a63c11?pvs=4" target="blank">séptimo arte</a></p>
       </div>
 </section>`;
 };
